@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SD-Vladmandic
+Version=1.1
+Icon=vladmandic.png
+Exec=/bin/bash -c 'cd ~/AI/software/vladmandic && ./smart-launcher.py -p AI'
+Terminal=true
+Type=Application

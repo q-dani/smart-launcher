@@ -6,6 +6,13 @@
   "vault_path": "~/AI/vault/",
   "vault": [
     {
+      "name": "embeddings",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "embeddings",
+      "program_rel_path": "models/embeddings"
+    },
+    {
       "name": "checkpoints",
       "enabled": true,
       "link_type": "folder",
@@ -29,9 +36,9 @@
     {
       "name": "lycoris",
       "enabled": true,
-      "link_type": "folder",
-      "vault_rel_path": "models/LyCORIS",
-      "program_rel_path": "models/LyCORIS"
+      "link_type": "contents",
+      "vault_rel_path": "models/LyCORIS/",
+      "program_rel_path": "models/LyCORIS/"
     },
     {
       "name": "outputs-extras",

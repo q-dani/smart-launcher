@@ -64,6 +64,8 @@ print(' ')
 print('Checking symlinks...')
 if json_config['use_vault'] is True:
     for vault_item in json_config['vault']:
+        if vault_item['enabled'] != True:
+            continue
         #print('Checking symlinks for ' + vault_item['name'])
         
         # Single file symlink type

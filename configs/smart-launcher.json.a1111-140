@@ -1,7 +1,8 @@
 {
   "software_name": "SD-A111 1.4.0",
   "launch_script": "./webui.sh",
-  "launch_params": "--xformers --no-half-vae",
+  "launch_params": "--xformers --no-half-vae --autolaunch",
+  "share_params": "--share",
   "use_vault": true,
   "vault_path": "~/AI/vault",
   "vault": [

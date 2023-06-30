@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SD-A1111 v.1.4.0 (Shared)
+Version=1.4
+Icon=sd.png
+Exec=/bin/bash -c 'cd ~/AI/software/a1111-140 && ./smart-launcher.py -p AI --share'
+Terminal=true
+Type=Application

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=SD-A1111
-Version=1.1
-Icon=sd.png
-Exec=/bin/bash -c 'cd ~/AI/software/a1111 && ./smart-launcher.py -p AI'
-Terminal=true
-Type=Application

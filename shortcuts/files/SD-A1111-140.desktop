@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=SD-A1111-140
+Name=SD-A1111 v1.4.0 (Local)
 Version=1.4
 Icon=sd.png
 Exec=/bin/bash -c 'cd ~/AI/software/a1111-140 && ./smart-launcher.py -p AI'

@@ -5,5 +5,5 @@ echo Launching Smart Launcher installer...
 cd installers
 ./install-launcher-a1111-140.sh
 echo Launching Smart Launcher Shortcut installer...
-cd shortcuts
+cd ../shortcuts
 ./install-shortcut-a1111-140.sh

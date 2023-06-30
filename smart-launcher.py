@@ -13,6 +13,7 @@ v1.2
 import sys,os
 import json
 import argparse
+import shutil
 
 # Argparse
 appversion = "%(prog)s v1.2"
@@ -93,7 +94,7 @@ if json_config['use_vault'] is True:
 
                     if args.force:
                         print(f'Deleting folder {vault_item["program_rel_path"]}, all contents, and creating symlink...')
-                        shutil.rmtree(vault_item["program_rel_path}"])
+                        shutil.rmtree(vault_item["program_rel_path"])
                         os.symlink(os.path.abspath(os.path.join(os.path.expanduser(json_config['vault_path']), vault_item['vault_rel_path'])),os.path.abspath(vault_item['program_rel_path']))
                     else:
                         print('This will be skipped. To fix this, move any contents to the vault folder and delete this folder or run with the --force flag')

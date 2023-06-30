@@ -1,5 +1,5 @@
 {
-  "software_name": "SD-A111 1.3.2",
+  "software_name": "SD-A1111 1.3.2",
   "launch_script": "./webui.sh",
   "launch_params": "--xformers --no-half-vae --autolaunch",
   "share_params": "--share",

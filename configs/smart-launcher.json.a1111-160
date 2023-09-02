@@ -1,0 +1,80 @@
+{
+  "software_name": "SD-A1111 1.6.0",
+  "launch_script": "./webui.sh",
+  "launch_params": "--xformers --no-half-vae --autolaunch",
+  "share_params": "--share",
+  "use_vault": true,
+  "vault_path": "~/AI/vault",
+  "vault": [
+    {
+      "name": "controlnet",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "models/controlnet",
+      "program_rel_path": "extensions/sd-webui-controlnet/models"
+    },
+    {
+      "name": "embeddings",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "embeddings",
+      "program_rel_path": "embeddings"
+    },
+    {
+      "name": "log",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "log",
+      "program_rel_path": "log"
+    },
+    {
+      "name": "checkpoints",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "models/checkpoints",
+      "program_rel_path": "models/Stable-diffusion"
+    },
+    {
+      "name": "loras",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "models/Lora",
+      "program_rel_path": "models/Lora"
+    },
+    {
+      "name": "vaes",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "models/VAE",
+      "program_rel_path": "models/VAE"
+    },
+    {
+      "name": "lycoris",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "models/LyCORIS",
+      "program_rel_path": "models/LyCORIS"
+    },
+    {
+      "name": "outputsultimate",
+      "enabled": true,
+      "link_type": "folder",
+      "vault_rel_path": "outputs",
+      "program_rel_path": "outputs"
+    },
+    {
+      "name": "scripts",
+      "enabled": true,
+      "link_type": "contents",
+      "vault_rel_path": "scripts/",
+      "program_rel_path": "scripts/"
+    },
+    {
+      "name": "styles",
+      "enabled": true,
+      "link_type": "file",
+      "vault_rel_path": "misc/styles.csv",
+      "program_rel_path": "styles.csv"
+    }
+  ]
+}
